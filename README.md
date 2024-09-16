@@ -201,20 +201,7 @@ This tab leverages the power of Pareto Anywhere, to access the data coming out o
 
 You'll notice that the sample flows in this tab connect to a node named "saveToCaputredBLE." What this does it record every device that you're actively doing something with. Another Pareto node captures ALL the devices pareto sees. This empowers a page in the UI to show a display of all the devices you currently ARE and ARE NOT doing anything with, along with all the properties that are available to use. This makes it easy to find new devices and add them to the BLE In table with friendly names.
 
-## MicroBit Bridge
-This tab creates a bridge with Micro:bits devices (https://microbit.org/), which are popular microcontrollers for teaching interactive programming.
 
-For this tab to work, you need to have a dedicated micro:bit device attached via USB cable to the computer running Node-RED.
-
-TBD: For full setup instructions, see  [MicroBitsBridgeInstall.md](MicroBitsBridgeInstall.md)
-
-## OSC Bridge
-This tab is where you map OSC-based inputs and outputs to named inputs and outputs that can be used in the Switchboard.
-
-## BLE Out Bridge
-This tab is for connecting named outputs to SEND data to BLE devices, via EspruinoHub, an application that maps mqtt messages to BLE messages. 
-
-Due to how BLE software accesses the BLE hardware on RPIs, EspruinoHub needs to run on a separate Raspberry Pi (or maybe you could use an additional Bluetooth dongle?). Instructions on how to install that are at [BLEOutBridgeInstall.md](BLEOutBridgeInstall.md).
 
 ## UI Generator
 Turn inputs into a cool dashboard, and keep track of all the devices you've got in the system
