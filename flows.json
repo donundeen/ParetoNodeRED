@@ -1,24 +1,8 @@
 [
     {
-        "id": "9529f2fd9052e78b",
-        "type": "tab",
-        "label": "IoT Playground: Message Switchboard",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "943e204f81529182",
         "type": "tab",
         "label": "BLE in with Pareto Anywhere",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "d286a10585a73e58",
-        "type": "tab",
-        "label": "UI Generator",
         "disabled": false,
         "info": "",
         "env": []
@@ -392,834 +376,13 @@
         "sessionExpiry": ""
     },
     {
-        "id": "5347604aa986a9b3",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "This flow Runs on the IoT Sandbox",
-        "info": "",
-        "x": 140,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "093e2453d12cd821",
-        "type": "link out",
-        "z": "9529f2fd9052e78b",
-        "name": "/joltjsd883/javascript",
-        "mode": "link",
-        "links": [
-            "cb332d7f29f9638f"
-        ],
-        "x": 1235,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "f05765e5ad2a800a",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/joltjsd883/javascript",
-        "info": "",
-        "x": 1350,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "a991b79e982ec38f",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/joltjsd883/buttonPressCount",
-        "links": [
-            "627021b995a2a0ef",
-            "e56477c26cb0cacc"
-        ],
-        "x": 375,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "15157771cd44e6fd",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/joltjsd883/buttonPressCount",
-        "info": "",
-        "x": 220,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "d3f56a97527fb425",
-        "type": "template",
-        "z": "9529f2fd9052e78b",
-        "name": "LED2.set();",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "LED2.set();",
-        "output": "str",
-        "x": 750,
-        "y": 620,
-        "wires": [
-            [
-                "093e2453d12cd821"
-            ]
-        ]
-    },
-    {
-        "id": "74b8931c4f169699",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "THE OUTPUTS",
-        "info": "",
-        "x": 1300,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "daa87bb343e14c6c",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "This is the message playground, let's play!",
-        "info": "",
-        "x": 160,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "5cedde4270e55d73",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Use Debug nodes to see what kind of data come out of the LinkOuts (the INPUTS)",
-        "info": "",
-        "x": 290,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "26d04fb560039b57",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Then (optionally)modify those messages and pass them along to the named LinkIn nodes (the OUTPUTS)",
-        "info": "",
-        "x": 360,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "4bce475a36d6fe42",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "THE INPUTS",
-        "info": "",
-        "x": 70,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "77aa25dc3e466eef",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "PLAY HAPPENS HERE",
-        "info": "",
-        "x": 760,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "7f48796d223aff6d",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "link in 1",
-        "links": [
-            "39d6698f6076b1cf",
-            "88dea25fe3f80940"
-        ],
-        "x": 375,
-        "y": 620,
-        "wires": [
-            [
-                "fb481705f37072a6"
-            ]
-        ]
-    },
-    {
-        "id": "4d8dca2999c440b2",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/isMotionDetected [true/false]",
-        "info": "",
-        "x": 180,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "7efd13165909c947",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/temperature [float]",
-        "info": "",
-        "x": 210,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "7ef475ffc039806f",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/temperature",
-        "links": [
-            "3f8a8d4cc887a6a0",
-            "72598cf98a406544"
-        ],
-        "x": 375,
-        "y": 680,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "db43857d6fddb21f",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/illuminance [int]",
-        "info": "",
-        "x": 220,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "15f03384138c7a9b",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/illuminance",
-        "links": [
-            "0fb34d273a62d5fd",
-            "4864450132a89ec0"
-        ],
-        "x": 375,
-        "y": 740,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0f1793047f7fd9ad",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/acceleration [x,y,x]",
-        "info": "",
-        "x": 210,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "b435851896189b4c",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/acceleration",
-        "links": [
-            "be8df522c0e4f250",
-            "fde36388a3200a3e"
-        ],
-        "x": 375,
-        "y": 800,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "68fd9537b6ef4f90",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/batteryPercentage [int]",
-        "info": "",
-        "x": 200,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "0e67c49a5c1dbc69",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/batteryPercentage",
-        "links": [
-            "214448f98c24559e",
-            "18ed9d4014b20f54"
-        ],
-        "x": 375,
-        "y": 860,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5ff2431630703949",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/realtiveHumidity [float]",
-        "info": "",
-        "x": 200,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "61fe7ef84007a447",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/relativeHumidity",
-        "links": [
-            "0be064a2c659c9a6",
-            "6975ec2ccb7fc343"
-        ],
-        "x": 375,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0fc60dcce126bb56",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/acceleration [x,y,x]",
-        "info": "",
-        "x": 200,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "bcc55d3b75af50b4",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/acceleration",
-        "links": [
-            "0ad22c5f1dca0ec8",
-            "d16e2f395802f112"
-        ],
-        "x": 375,
-        "y": 1020,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "63f1f9f78ff03929",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/batteryPercentage [int]",
-        "info": "",
-        "x": 190,
-        "y": 1080,
-        "wires": []
-    },
-    {
-        "id": "a7d84af63bc1a4a3",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/batteryPercentage",
-        "links": [],
-        "x": 375,
-        "y": 1080,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "656c29854a0f9c68",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/isMotionDetected",
-        "links": [
-            "12f3f5b83580a23d",
-            "298b7604e45e2609",
-            "9460864a184af397"
-        ],
-        "x": 375,
-        "y": 1140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "90c5dade84a5b513",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/isMotionDetected [true/false]",
-        "info": "",
-        "x": 170,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "afb3a856d21e5af7",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Minew E9 Waterproof Beacon https://www.minew.com/product/e9-waterproof-beacon/",
-        "info": "",
-        "x": 300,
-        "y": 980,
-        "wires": []
-    },
-    {
-        "id": "825a8a29af6c8760",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "The Espruino JoltJS https://www.espruino.com/Jolt.js",
-        "info": "",
-        "x": 200,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "510c3dbc15186c67",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "MINEW MSP01 Human Body Sensor https://www.minew.com/product/msp01-bluetooth-pir-sensor/",
-        "info": "",
-        "x": 340,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "9abc8790454ec959",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Also, you can add your own flow and copy any input and output nodes from below into it, and they will work!",
-        "info": "",
-        "x": 370,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "a0deccccec3a0425",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Find the devices in the rooms, using the ID number written on it that matches the first part of the input/output names below",
-        "info": "",
-        "x": 410,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "d7e205c98b27cfa9",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "eg the device named \"motionE8DA\" has all the inputs and outputs that start with /motionE8DA",
-        "info": "",
-        "x": 330,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "a0cf0de0e9d8c435",
-        "type": "template",
-        "z": "9529f2fd9052e78b",
-        "name": "LED2.reset();",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "LED2.reset();",
-        "output": "str",
-        "x": 750,
-        "y": 660,
-        "wires": [
-            [
-                "093e2453d12cd821"
-            ]
-        ]
-    },
-    {
-        "id": "fb481705f37072a6",
-        "type": "switch",
-        "z": "9529f2fd9052e78b",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 590,
-        "y": 640,
-        "wires": [
-            [
-                "d3f56a97527fb425"
-            ],
-            [
-                "a0cf0de0e9d8c435"
-            ]
-        ]
-    },
-    {
-        "id": "e8a7791c68492700",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Minew MWC01 Badge Bluetooth Repeater https://www.minewstore.com/product/mwc01-badge-bluetooth-repeater",
-        "info": "",
-        "x": 390,
-        "y": 1220,
-        "wires": []
-    },
-    {
-        "id": "0cb5f37d10ef0ba2",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/badgeF741/acceleration [x,y,x]",
-        "info": "",
-        "x": 210,
-        "y": 1280,
-        "wires": []
-    },
-    {
-        "id": "190c1992f1cbf565",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/acceleration",
-        "links": [
-            "de8fbc462923dbc9",
-            "8befa1d6bfd45eba"
-        ],
-        "x": 375,
-        "y": 1280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "82e34702549f3bae",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/badgeF741/batteryPercentage [int]",
-        "info": "",
-        "x": 200,
-        "y": 1340,
-        "wires": []
-    },
-    {
-        "id": "3b7587803e77b349",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/batteryPercentage",
-        "links": [
-            "4231c54266544aaa",
-            "110ab9d13bfea08a"
-        ],
-        "x": 375,
-        "y": 1340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f3913b32de691a60",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/badgeF741/temperature [float]",
-        "info": "",
-        "x": 210,
-        "y": 1400,
-        "wires": []
-    },
-    {
-        "id": "46f318315efbac05",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/temperature",
-        "links": [
-            "d7237dea509bc5d8",
-            "8ea881c0709024d8"
-        ],
-        "x": 375,
-        "y": 1400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "20c0e4ef4a2620dc",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/badgeF741/tripleClick [anything]",
-        "info": "",
-        "x": 210,
-        "y": 1460,
-        "wires": []
-    },
-    {
-        "id": "188b2020e129bf2c",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/tripleClick",
-        "links": [
-            "19d4534cec60808e",
-            "a90317c4da0c55da"
-        ],
-        "x": 375,
-        "y": 1460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1b433d53057546c4",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/badgeF741/doubleClick [anything]",
-        "info": "",
-        "x": 200,
-        "y": 1520,
-        "wires": []
-    },
-    {
-        "id": "8dd1e7825daec697",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/motionE8DA/doubleClick",
-        "links": [
-            "1993e168718b6344",
-            "eec12574382b4adb"
-        ],
-        "x": 375,
-        "y": 1520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6f7d2c98610cd139",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "MSR01 Millimeter Wave Radar Sensor https://www.minew.com/product/msr01-millimeter-wave-radar-sensor/",
-        "info": "",
-        "x": 370,
-        "y": 1600,
-        "wires": []
-    },
-    {
-        "id": "3fcc306c56f11bc8",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/radar1569/numberOfOccupants [int]",
-        "info": "",
-        "x": 190,
-        "y": 1660,
-        "wires": []
-    },
-    {
-        "id": "58da5b866b432383",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/radar1569/numberOfOccupants",
-        "links": [
-            "6e29a67b8309b49b",
-            "ab7c932c0809d8f2",
-            "f0f43df8a09dbce2"
-        ],
-        "x": 375,
-        "y": 1660,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "439df683befd6a81",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "/radar1569/batteryPercentage [int]",
-        "info": "",
-        "x": 200,
-        "y": 1720,
-        "wires": []
-    },
-    {
-        "id": "0ba2dd4dcb604546",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "/e9beacon5c26/batteryPercentage",
-        "links": [
-            "4fbb33ab4f5e3d5c",
-            "77e5d4a3042b144c"
-        ],
-        "x": 375,
-        "y": 1720,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "74fde88e8b557db0",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "MicroBits Button Device named \"b\"",
-        "info": "",
-        "x": 200,
-        "y": 1780,
-        "wires": []
-    },
-    {
-        "id": "17f0db515a671710",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "link in 5",
-        "links": [
-            "b03c01d92337c309"
-        ],
-        "x": 375,
-        "y": 1820,
-        "wires": [
-            [
-                "84df9701ff1f453c"
-            ]
-        ]
-    },
-    {
-        "id": "2e05219f7227c890",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Button A",
-        "info": "",
-        "x": 280,
-        "y": 1820,
-        "wires": []
-    },
-    {
-        "id": "32d8c97058927115",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Button B",
-        "info": "",
-        "x": 280,
-        "y": 1880,
-        "wires": []
-    },
-    {
-        "id": "90a54b05c828e06a",
-        "type": "link in",
-        "z": "9529f2fd9052e78b",
-        "name": "link in 6",
-        "links": [
-            "97829c983b8d5c9c"
-        ],
-        "x": 375,
-        "y": 1880,
-        "wires": [
-            [
-                "09b2079e89159bca"
-            ]
-        ]
-    },
-    {
-        "id": "b5eaf5c3e3b2e7d4",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "MicroBits Motor Device Driver A",
-        "info": "",
-        "x": 1450,
-        "y": 2020,
-        "wires": []
-    },
-    {
-        "id": "84df9701ff1f453c",
-        "type": "link out",
-        "z": "9529f2fd9052e78b",
-        "name": "Send Motor to position 0",
-        "mode": "link",
-        "links": [
-            "8ce3c15689f8ed88"
-        ],
-        "x": 1345,
-        "y": 2080,
-        "wires": []
-    },
-    {
-        "id": "6b32856a7224eec7",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Send Motor to position 0",
-        "info": "",
-        "x": 1490,
-        "y": 2080,
-        "wires": []
-    },
-    {
-        "id": "d5e587b6dc254acf",
-        "type": "link out",
-        "z": "9529f2fd9052e78b",
-        "name": "Send Motor to position 0",
-        "mode": "link",
-        "links": [
-            "01a91a77a4f59c2b"
-        ],
-        "x": 1345,
-        "y": 2140,
-        "wires": []
-    },
-    {
-        "id": "60647e6798fe842a",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "Send Servo to position at number in payload",
-        "info": "",
-        "x": 1550,
-        "y": 2140,
-        "wires": []
-    },
-    {
-        "id": "09b2079e89159bca",
-        "type": "change",
-        "z": "9529f2fd9052e78b",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "45",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 2020,
-        "wires": [
-            [
-                "d5e587b6dc254acf"
-            ]
-        ]
-    },
-    {
-        "id": "38331b856f0d6a88",
-        "type": "comment",
-        "z": "9529f2fd9052e78b",
-        "name": "set number to 45",
-        "info": "",
-        "x": 880,
-        "y": 2060,
-        "wires": []
-    },
-    {
         "id": "57c7f54bd83b1b4a",
         "type": "comment",
         "z": "943e204f81529182",
         "name": "This flow Runs on IoT Sandbox, with ParetoAnywhere Installed",
         "info": "This machine needs to have ParetoAnywhere installed.",
         "x": 250,
-        "y": 40,
+        "y": 60,
         "wires": []
     },
     {
@@ -1230,36 +393,6 @@
         "info": "",
         "x": 450,
         "y": 140,
-        "wires": []
-    },
-    {
-        "id": "4cfe56bd16725cf3",
-        "type": "comment",
-        "z": "943e204f81529182",
-        "name": "Each device property gets their own section here",
-        "info": "# each device property gets their own section here",
-        "x": 200,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "60f62919685ff439",
-        "type": "comment",
-        "z": "943e204f81529182",
-        "name": "The code below is for identifying and routing BLE device messages with friendlier names",
-        "info": "",
-        "x": 330,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "fc10d2f338d12c67",
-        "type": "comment",
-        "z": "943e204f81529182",
-        "name": "The Espruino JoltJS https://www.espruino.com/Jolt.js",
-        "info": "",
-        "x": 240,
-        "y": 340,
         "wires": []
     },
     {
@@ -1276,9 +409,9 @@
         "id": "90f2368be6a4ce23",
         "type": "comment",
         "z": "943e204f81529182",
-        "name": "You can access the Pareto Anywhere Apps here to see more device information: http://192.168.73.88:3001/",
+        "name": "You can access the Pareto Anywhere Apps here to see more device information: http://[THIS_MACHINE_IP]:3001/",
         "info": "http://192.168.73.88:3001/",
-        "x": 390,
+        "x": 410,
         "y": 180,
         "wires": []
     },
@@ -1536,7 +669,7 @@
         "z": "943e204f81529182",
         "name": "",
         "ignoreProtocolOverheadCheckbox": false,
-        "x": 720,
+        "x": 1060,
         "y": 500,
         "wires": [
             [
@@ -1577,7 +710,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 460,
+        "x": 480,
         "y": 540,
         "wires": []
     },
@@ -1593,7 +726,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 880,
+        "x": 1220,
         "y": 500,
         "wires": []
     },
@@ -1616,7 +749,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
+        "x": 860,
         "y": 500,
         "wires": [
             [
@@ -1628,10 +761,10 @@
         "id": "3e4804814a47f650",
         "type": "comment",
         "z": "943e204f81529182",
-        "name": "a little bit that'suseful for debugging",
+        "name": "This little bit is useful for debugging, for seeing all the data that pareto is getting, even if it's not decoded yet.",
         "info": "",
-        "x": 200,
-        "y": 460,
+        "x": 430,
+        "y": 380,
         "wires": []
     },
     {
@@ -1639,12 +772,10 @@
         "type": "pareto-anywhere-socketio",
         "z": "943e204f81529182",
         "uri": "http://localhost:3001",
-        "x": 150,
+        "x": 140,
         "y": 500,
         "wires": [
-            [
-                "c2894d8c81135ed7"
-            ],
+            [],
             []
         ]
     },
@@ -1652,17 +783,17 @@
         "id": "8cb5b186d5396c5a",
         "type": "comment",
         "z": "943e204f81529182",
-        "name": "Connect Pareto to Split to get it going....",
+        "name": "Connect Pareto top output to Split to get it going....",
         "info": "",
-        "x": 220,
-        "y": 540,
+        "x": 250,
+        "y": 420,
         "wires": []
     },
     {
         "id": "0970b33e6d276c43",
         "type": "switch",
         "z": "943e204f81529182",
-        "name": "",
+        "name": "Looking for a particular device ID",
         "property": "payload.transmitterId",
         "propertyType": "msg",
         "rules": [
@@ -1675,8 +806,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 410,
-        "y": 460,
+        "x": 560,
+        "y": 500,
         "wires": [
             [
                 "d9d4dd74cbc4f92b"
@@ -1684,68 +815,33 @@
         ]
     },
     {
-        "id": "b8e0d1ef098a80f6",
-        "type": "link in",
-        "z": "d286a10585a73e58",
-        "name": "/joltjsd883/buttonPressCount",
-        "links": [
-            "627021b995a2a0ef",
-            "e56477c26cb0cacc"
-        ],
-        "x": 435,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "53fc1d4bad7bc041",
+        "id": "8c57aa949ac33da3",
         "type": "comment",
-        "z": "d286a10585a73e58",
-        "name": "/joltjsd883/buttonPressCount",
+        "z": "943e204f81529182",
+        "name": "UI at http://[THIS_MACHINE_IP]:1880/ui",
         "info": "",
-        "x": 280,
-        "y": 160,
+        "x": 1000,
+        "y": 220,
         "wires": []
     },
     {
-        "id": "66ad2bee53eb2ac7",
+        "id": "cfc1a391de90d4b5",
         "type": "comment",
-        "z": "d286a10585a73e58",
-        "name": "THE INPUTS",
+        "z": "943e204f81529182",
+        "name": "Each tab to the right is a sample for access data from a different paret-compatible device. Take a look!",
         "info": "",
-        "x": 130,
-        "y": 20,
+        "x": 370,
+        "y": 260,
         "wires": []
     },
     {
-        "id": "773a6a7ee978c851",
+        "id": "df890896043ea8c2",
         "type": "comment",
-        "z": "d286a10585a73e58",
-        "name": "The Espruino JoltJS https://www.espruino.com/Jolt.js",
+        "z": "943e204f81529182",
+        "name": "This part below helps us buld out the UI of known and unknown devices",
         "info": "",
-        "x": 260,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "96275900a577e922",
-        "type": "comment",
-        "z": "d286a10585a73e58",
-        "name": "pick your dashboard widget for display. Chart is usually a ood choice :)",
-        "info": "",
-        "x": 1090,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "d418e0a4c0eb6b81",
-        "type": "comment",
-        "z": "d286a10585a73e58",
-        "name": "the inputs below can be copied straight from the inputs in the IoT Playground tab",
-        "info": "",
-        "x": 340,
-        "y": 60,
+        "x": 320,
+        "y": 620,
         "wires": []
     },
     {
@@ -1753,6 +849,7 @@
         "type": "pareto-anywhere-socketio",
         "z": "7f99695c21df75f9",
         "uri": "http://localhost:3001/devices/c300000ae8da/3",
+        "name": "",
         "x": 140,
         "y": 200,
         "wires": [
@@ -1780,7 +877,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 840,
+        "x": 1090,
         "y": 200,
         "wires": [
             [
@@ -1794,8 +891,8 @@
         "z": "7f99695c21df75f9",
         "name": "assign a device ID here",
         "info": "",
-        "x": 130,
-        "y": 160,
+        "x": 140,
+        "y": 120,
         "wires": []
     },
     {
@@ -1804,7 +901,7 @@
         "z": "7f99695c21df75f9",
         "name": "create a topic name, and assign the payload here",
         "info": "",
-        "x": 890,
+        "x": 1140,
         "y": 160,
         "wires": []
     },
@@ -1814,7 +911,7 @@
         "z": "7f99695c21df75f9",
         "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
         "info": "",
-        "x": 1560,
+        "x": 1810,
         "y": 160,
         "wires": []
     },
@@ -1830,7 +927,7 @@
             "da9387dc2680a057",
             "a6d379a11de955f8"
         ],
-        "x": 1245,
+        "x": 1495,
         "y": 200,
         "wires": []
     },
@@ -1840,7 +937,7 @@
         "z": "7f99695c21df75f9",
         "name": "/motionE8DA/isMotionDetected",
         "info": "",
-        "x": 1400,
+        "x": 1650,
         "y": 200,
         "wires": []
     },
@@ -1860,7 +957,7 @@
         "z": "7f99695c21df75f9",
         "name": "Confirm the property of the right name exists...",
         "info": "",
-        "x": 510,
+        "x": 760,
         "y": 160,
         "wires": []
     },
@@ -1870,7 +967,7 @@
         "z": "7f99695c21df75f9",
         "name": "Even if we trust the device....",
         "info": "",
-        "x": 450,
+        "x": 700,
         "y": 240,
         "wires": []
     },
@@ -1886,7 +983,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
+        "x": 680,
         "y": 200,
         "wires": [
             [
@@ -1906,7 +1003,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
+        "x": 1120,
         "y": 340,
         "wires": [
             [
@@ -1920,7 +1017,7 @@
         "z": "7f99695c21df75f9",
         "name": "create a topic name, and assign the payload here",
         "info": "",
-        "x": 930,
+        "x": 1180,
         "y": 300,
         "wires": []
     },
@@ -1930,7 +1027,7 @@
         "z": "7f99695c21df75f9",
         "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
         "info": "",
-        "x": 1560,
+        "x": 1810,
         "y": 300,
         "wires": []
     },
@@ -1948,7 +1045,7 @@
             "a3dd92f8f3bbd818",
             "2af44edb76086223"
         ],
-        "x": 1245,
+        "x": 1495,
         "y": 340,
         "wires": []
     },
@@ -1958,7 +1055,7 @@
         "z": "7f99695c21df75f9",
         "name": "/motionE8DA/temperature",
         "info": "",
-        "x": 1380,
+        "x": 1630,
         "y": 340,
         "wires": []
     },
@@ -1968,7 +1065,7 @@
         "z": "7f99695c21df75f9",
         "name": "Confirm the property of the right name exists...",
         "info": "",
-        "x": 510,
+        "x": 760,
         "y": 300,
         "wires": []
     },
@@ -1978,7 +1075,7 @@
         "z": "7f99695c21df75f9",
         "name": "Even if we trust the device....",
         "info": "",
-        "x": 450,
+        "x": 700,
         "y": 380,
         "wires": []
     },
@@ -1994,7 +1091,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
+        "x": 670,
         "y": 340,
         "wires": [
             [
@@ -2014,7 +1111,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 860,
+        "x": 1110,
         "y": 480,
         "wires": [
             [
@@ -2028,7 +1125,7 @@
         "z": "7f99695c21df75f9",
         "name": "create a topic name, and assign the payload here",
         "info": "",
-        "x": 930,
+        "x": 1180,
         "y": 440,
         "wires": []
     },
@@ -2038,7 +1135,7 @@
         "z": "7f99695c21df75f9",
         "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
         "info": "",
-        "x": 1560,
+        "x": 1810,
         "y": 440,
         "wires": []
     },
@@ -2053,7 +1150,7 @@
             "c1d1dfc74b17a671",
             "bb6d81d93e1ad55a"
         ],
-        "x": 1245,
+        "x": 1495,
         "y": 480,
         "wires": []
     },
@@ -2063,7 +1160,7 @@
         "z": "7f99695c21df75f9",
         "name": "/motionE8DA/illuminance",
         "info": "",
-        "x": 1380,
+        "x": 1630,
         "y": 480,
         "wires": []
     },
@@ -2073,7 +1170,7 @@
         "z": "7f99695c21df75f9",
         "name": "Confirm the property of the right name exists...",
         "info": "",
-        "x": 510,
+        "x": 760,
         "y": 440,
         "wires": []
     },
@@ -2083,7 +1180,7 @@
         "z": "7f99695c21df75f9",
         "name": "Even if we trust the device....",
         "info": "",
-        "x": 450,
+        "x": 700,
         "y": 520,
         "wires": []
     },
@@ -2099,7 +1196,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
+        "x": 660,
         "y": 480,
         "wires": [
             [
@@ -2119,7 +1216,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
+        "x": 1120,
         "y": 620,
         "wires": [
             [
@@ -2133,7 +1230,7 @@
         "z": "7f99695c21df75f9",
         "name": "create a topic name, and assign the payload here",
         "info": "",
-        "x": 930,
+        "x": 1180,
         "y": 580,
         "wires": []
     },
@@ -2143,7 +1240,7 @@
         "z": "7f99695c21df75f9",
         "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
         "info": "",
-        "x": 1560,
+        "x": 1810,
         "y": 580,
         "wires": []
     },
@@ -2158,7 +1255,7 @@
             "34179481a9d37d57",
             "71ebe495c61eccb3"
         ],
-        "x": 1245,
+        "x": 1495,
         "y": 620,
         "wires": []
     },
@@ -2168,7 +1265,7 @@
         "z": "7f99695c21df75f9",
         "name": "/motionE8DA/acceleration",
         "info": "",
-        "x": 1380,
+        "x": 1630,
         "y": 620,
         "wires": []
     },
@@ -2178,7 +1275,7 @@
         "z": "7f99695c21df75f9",
         "name": "Confirm the property of the right name exists...",
         "info": "",
-        "x": 510,
+        "x": 760,
         "y": 580,
         "wires": []
     },
@@ -2188,7 +1285,7 @@
         "z": "7f99695c21df75f9",
         "name": "Even if we trust the device....",
         "info": "",
-        "x": 450,
+        "x": 700,
         "y": 660,
         "wires": []
     },
@@ -2204,7 +1301,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
+        "x": 670,
         "y": 620,
         "wires": [
             [
@@ -2224,7 +1321,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
+        "x": 1130,
         "y": 760,
         "wires": [
             [
@@ -2238,7 +1335,7 @@
         "z": "7f99695c21df75f9",
         "name": "create a topic name, and assign the payload here",
         "info": "",
-        "x": 930,
+        "x": 1180,
         "y": 720,
         "wires": []
     },
@@ -2248,7 +1345,7 @@
         "z": "7f99695c21df75f9",
         "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
         "info": "",
-        "x": 1560,
+        "x": 1810,
         "y": 720,
         "wires": []
     },
@@ -2263,7 +1360,7 @@
             "92148f9250905b6b",
             "fddd5d157b9b8608"
         ],
-        "x": 1245,
+        "x": 1495,
         "y": 760,
         "wires": []
     },
@@ -2273,7 +1370,7 @@
         "z": "7f99695c21df75f9",
         "name": "/motionE8DA/batteryPercentage",
         "info": "",
-        "x": 1400,
+        "x": 1650,
         "y": 760,
         "wires": []
     },
@@ -2283,7 +1380,7 @@
         "z": "7f99695c21df75f9",
         "name": "Confirm the property of the right name exists...",
         "info": "",
-        "x": 510,
+        "x": 760,
         "y": 720,
         "wires": []
     },
@@ -2293,7 +1390,7 @@
         "z": "7f99695c21df75f9",
         "name": "Even if we trust the device....",
         "info": "",
-        "x": 450,
+        "x": 700,
         "y": 800,
         "wires": []
     },
@@ -2309,7 +1406,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
+        "x": 690,
         "y": 760,
         "wires": [
             [
@@ -2329,7 +1426,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
+        "x": 1130,
         "y": 900,
         "wires": [
             [
@@ -2343,7 +1440,7 @@
         "z": "7f99695c21df75f9",
         "name": "create a topic name, and assign the payload here",
         "info": "",
-        "x": 930,
+        "x": 1180,
         "y": 860,
         "wires": []
     },
@@ -2353,7 +1450,7 @@
         "z": "7f99695c21df75f9",
         "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
         "info": "",
-        "x": 1560,
+        "x": 1810,
         "y": 860,
         "wires": []
     },
@@ -2368,7 +1465,7 @@
             "10d09e9ebbae4a39",
             "71d0ac9efc87d2d0"
         ],
-        "x": 1245,
+        "x": 1495,
         "y": 900,
         "wires": []
     },
@@ -2378,7 +1475,7 @@
         "z": "7f99695c21df75f9",
         "name": "/motionE8DA/relativeHumidity",
         "info": "",
-        "x": 1390,
+        "x": 1640,
         "y": 900,
         "wires": []
     },
@@ -2388,7 +1485,7 @@
         "z": "7f99695c21df75f9",
         "name": "Confirm the property of the right name exists...",
         "info": "",
-        "x": 510,
+        "x": 760,
         "y": 860,
         "wires": []
     },
@@ -2398,7 +1495,7 @@
         "z": "7f99695c21df75f9",
         "name": "Even if we trust the device....",
         "info": "",
-        "x": 450,
+        "x": 700,
         "y": 940,
         "wires": []
     },
@@ -2414,7 +1511,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
+        "x": 680,
         "y": 900,
         "wires": [
             [
@@ -2428,8 +1525,8 @@
         "z": "7f99695c21df75f9",
         "name": "MINEW MSP01 Human Body Sensor https://www.minew.com/product/msp01-bluetooth-pir-sensor/",
         "info": "",
-        "x": 370,
-        "y": 100,
+        "x": 380,
+        "y": 40,
         "wires": []
     },
     {
@@ -2444,7 +1541,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1110,
+        "x": 1360,
         "y": 200,
         "wires": [
             [
@@ -2464,7 +1561,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1110,
+        "x": 1360,
         "y": 340,
         "wires": [
             [
@@ -2484,7 +1581,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1110,
+        "x": 1360,
         "y": 480,
         "wires": [
             [
@@ -2504,7 +1601,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1110,
+        "x": 1360,
         "y": 620,
         "wires": [
             [
@@ -2524,7 +1621,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1110,
+        "x": 1360,
         "y": 760,
         "wires": [
             [
@@ -2544,7 +1641,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1110,
+        "x": 1360,
         "y": 900,
         "wires": [
             [
@@ -3063,6 +2160,101 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "50ff65d0ec69d819",
+        "type": "function",
+        "z": "7f99695c21df75f9",
+        "name": "function 1",
+        "func": "if(msg.setDeviceID){\n    this.deviceID = msg.setDeviceID;\n}else{\n    msg.deviceID = this.deviceID;\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n this.deviceID = \"xxx\";",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 700,
+        "wires": [
+            [
+                "456e154cec02b3b9"
+            ]
+        ]
+    },
+    {
+        "id": "f395be6ce08fe69a",
+        "type": "inject",
+        "z": "7f99695c21df75f9",
+        "name": "setDevID",
+        "props": [
+            {
+                "p": "setDeviceID",
+                "v": "ZZZZ",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 120,
+        "y": 560,
+        "wires": [
+            [
+                "50ff65d0ec69d819"
+            ]
+        ]
+    },
+    {
+        "id": "92d163544ed880c1",
+        "type": "inject",
+        "z": "7f99695c21df75f9",
+        "name": "otherMsg",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 620,
+        "wires": [
+            [
+                "50ff65d0ec69d819"
+            ]
+        ]
+    },
+    {
+        "id": "456e154cec02b3b9",
+        "type": "debug",
+        "z": "7f99695c21df75f9",
+        "name": "debug 48",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 800,
+        "wires": []
     },
     {
         "id": "b145552636ed6937",
