@@ -845,6 +845,16 @@
         "wires": []
     },
     {
+        "id": "cc3d77d60a335501",
+        "type": "comment",
+        "z": "943e204f81529182",
+        "name": "This flow repo at: https://github.com/donundeen/ParetoNodeRED",
+        "info": "",
+        "x": 770,
+        "y": 60,
+        "wires": []
+    },
+    {
         "id": "86082d1415efdb4f",
         "type": "pareto-anywhere-socketio",
         "z": "7f99695c21df75f9",
