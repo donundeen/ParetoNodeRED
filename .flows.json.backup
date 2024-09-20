@@ -2568,53 +2568,13 @@
         ]
     },
     {
-        "id": "0d1c5c0ea49119d4",
-        "type": "comment",
-        "z": "1d5ae953cc9707ce",
-        "name": "assign a device ID here",
-        "info": "",
-        "x": 140,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "789f78f2d1a4b247",
-        "type": "comment",
-        "z": "1d5ae953cc9707ce",
-        "name": "create a topic name, and assign the payload here",
-        "info": "",
-        "x": 940,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "0f5d0118fd2c49ab",
-        "type": "comment",
-        "z": "1d5ae953cc9707ce",
-        "name": "Confirm the property of the right name exists...",
-        "info": "",
-        "x": 520,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "51a55e90ba1285c9",
-        "type": "comment",
-        "z": "1d5ae953cc9707ce",
-        "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
-        "info": "",
-        "x": 1570,
-        "y": 260,
-        "wires": []
-    },
-    {
         "id": "a54a85ab5514cf05",
         "type": "comment",
         "z": "1d5ae953cc9707ce",
         "name": "Minew MWC01 Badge Bluetooth Repeater https://www.minewstore.com/product/mwc01-badge-bluetooth-repeater",
         "info": "",
         "x": 430,
-        "y": 200,
+        "y": 40,
         "wires": []
     },
     {
@@ -2629,8 +2589,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
-        "y": 320,
+        "x": 1110,
+        "y": 300,
         "wires": [
             [
                 "f0648b800c56894f"
@@ -2650,8 +2610,8 @@
             "9089710de0df1ad7",
             "270f40931efab3e3"
         ],
-        "x": 1255,
-        "y": 320,
+        "x": 1715,
+        "y": 300,
         "wires": []
     },
     {
@@ -2660,8 +2620,8 @@
         "z": "1d5ae953cc9707ce",
         "name": "/badgeF741/acceleration",
         "info": "",
-        "x": 1390,
-        "y": 320,
+        "x": 1850,
+        "y": 300,
         "wires": []
     },
     {
@@ -2676,8 +2636,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 320,
+        "x": 670,
+        "y": 300,
         "wires": [
             [
                 "4f5729bf469f02b9"
@@ -2696,8 +2656,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1140,
-        "y": 320,
+        "x": 1480,
+        "y": 300,
         "wires": [
             [
                 "8befa1d6bfd45eba"
@@ -2716,8 +2676,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
-        "y": 400,
+        "x": 1110,
+        "y": 380,
         "wires": [
             [
                 "6053f4335996ba76"
@@ -2737,8 +2697,8 @@
             "a3dd92f8f3bbd818",
             "2af44edb76086223"
         ],
-        "x": 1255,
-        "y": 400,
+        "x": 1715,
+        "y": 380,
         "wires": []
     },
     {
@@ -2747,8 +2707,8 @@
         "z": "1d5ae953cc9707ce",
         "name": "/badgeF741/temperature",
         "info": "",
-        "x": 1390,
-        "y": 400,
+        "x": 1850,
+        "y": 380,
         "wires": []
     },
     {
@@ -2763,8 +2723,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 400,
+        "x": 670,
+        "y": 380,
         "wires": [
             [
                 "72ecd13a563f1cc0"
@@ -2783,8 +2743,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1140,
-        "y": 400,
+        "x": 1480,
+        "y": 380,
         "wires": [
             [
                 "8ea881c0709024d8"
@@ -2803,8 +2763,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
-        "y": 480,
+        "x": 1130,
+        "y": 440,
         "wires": [
             [
                 "7969eaf2fa67e0c8"
@@ -2824,8 +2784,8 @@
             "fddd5d157b9b8608",
             "53242798a9172140"
         ],
-        "x": 1255,
-        "y": 480,
+        "x": 1715,
+        "y": 440,
         "wires": []
     },
     {
@@ -2834,8 +2794,8 @@
         "z": "1d5ae953cc9707ce",
         "name": "/badgeF741/batteryPercentage",
         "info": "",
-        "x": 1410,
-        "y": 480,
+        "x": 1870,
+        "y": 440,
         "wires": []
     },
     {
@@ -2850,8 +2810,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 480,
+        "x": 690,
+        "y": 440,
         "wires": [
             [
                 "d51dc90d170aed1d"
@@ -2870,8 +2830,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1140,
-        "y": 480,
+        "x": 1480,
+        "y": 440,
         "wires": [
             [
                 "110ab9d13bfea08a"
@@ -2890,8 +2850,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
-        "y": 540,
+        "x": 1110,
+        "y": 500,
         "wires": [
             [
                 "eb312735d8f5ff69"
@@ -2911,8 +2871,8 @@
             "fddd5d157b9b8608",
             "53242798a9172140"
         ],
-        "x": 1255,
-        "y": 540,
+        "x": 1715,
+        "y": 500,
         "wires": []
     },
     {
@@ -2921,8 +2881,8 @@
         "z": "1d5ae953cc9707ce",
         "name": "/badgeF741/doubleClick",
         "info": "",
-        "x": 1390,
-        "y": 540,
+        "x": 1850,
+        "y": 500,
         "wires": []
     },
     {
@@ -2937,8 +2897,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 540,
+        "x": 720,
+        "y": 500,
         "wires": [
             [
                 "67edfd28d4606104"
@@ -2957,8 +2917,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1140,
-        "y": 540,
+        "x": 1480,
+        "y": 500,
         "wires": [
             [
                 "eec12574382b4adb"
@@ -2977,8 +2937,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 860,
-        "y": 600,
+        "x": 1100,
+        "y": 560,
         "wires": [
             [
                 "2d8a3d989badc034"
@@ -2998,8 +2958,8 @@
             "fddd5d157b9b8608",
             "53242798a9172140"
         ],
-        "x": 1255,
-        "y": 600,
+        "x": 1715,
+        "y": 560,
         "wires": []
     },
     {
@@ -3008,8 +2968,8 @@
         "z": "1d5ae953cc9707ce",
         "name": "/badgeF741/tripleClick",
         "info": "",
-        "x": 1380,
-        "y": 600,
+        "x": 1840,
+        "y": 560,
         "wires": []
     },
     {
@@ -3024,8 +2984,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 600,
+        "x": 710,
+        "y": 560,
         "wires": [
             [
                 "efe9d9f58357ddce"
@@ -3044,8 +3004,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1140,
-        "y": 600,
+        "x": 1480,
+        "y": 560,
         "wires": [
             [
                 "a90317c4da0c55da"
@@ -3071,23 +3031,13 @@
         ]
     },
     {
-        "id": "fbc42039b23e41c5",
-        "type": "comment",
-        "z": "1d5ae953cc9707ce",
-        "name": "Minew MWC01 Badge Bluetooth Repeater https://www.minewstore.com/product/mwc01-badge-bluetooth-repeater",
-        "info": "",
-        "x": 430,
-        "y": 780,
-        "wires": []
-    },
-    {
         "id": "597252aa191ac18e",
         "type": "comment",
         "z": "1d5ae953cc9707ce",
         "name": "/badgeF741/acceleration [x,y,x]",
         "info": "",
-        "x": 250,
-        "y": 840,
+        "x": 230,
+        "y": 760,
         "wires": []
     },
     {
@@ -3102,8 +3052,8 @@
             "f0f43df8a09dbce2",
             "8befa1d6bfd45eba"
         ],
-        "x": 415,
-        "y": 840,
+        "x": 395,
+        "y": 760,
         "wires": [
             [
                 "4fd6f28a099c5429"
@@ -3116,8 +3066,8 @@
         "z": "1d5ae953cc9707ce",
         "name": "/badgeF741/batteryPercentage [int]",
         "info": "",
-        "x": 240,
-        "y": 900,
+        "x": 220,
+        "y": 820,
         "wires": []
     },
     {
@@ -3135,8 +3085,8 @@
             "eec12574382b4adb",
             "a90317c4da0c55da"
         ],
-        "x": 415,
-        "y": 900,
+        "x": 395,
+        "y": 820,
         "wires": [
             [
                 "fd42584ca4bd5c15"
@@ -3149,8 +3099,8 @@
         "z": "1d5ae953cc9707ce",
         "name": "/badgeF741/temperature [float]",
         "info": "",
-        "x": 250,
-        "y": 960,
+        "x": 230,
+        "y": 880,
         "wires": []
     },
     {
@@ -3164,8 +3114,8 @@
             "72598cf98a406544",
             "8ea881c0709024d8"
         ],
-        "x": 415,
-        "y": 960,
+        "x": 395,
+        "y": 880,
         "wires": [
             [
                 "a05adba8824df19f"
@@ -3184,8 +3134,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 590,
-        "y": 840,
+        "x": 570,
+        "y": 760,
         "wires": [
             [
                 "81c9cf39fdc243b1"
@@ -3236,8 +3186,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 890,
-        "y": 840,
+        "x": 870,
+        "y": 760,
         "wires": [
             []
         ]
@@ -3280,8 +3230,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 880,
-        "y": 900,
+        "x": 860,
+        "y": 820,
         "wires": [
             []
         ]
@@ -3324,11 +3274,91 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 890,
-        "y": 960,
+        "x": 870,
+        "y": 880,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "01645a4289c7e049",
+        "type": "comment",
+        "z": "1d5ae953cc9707ce",
+        "name": "Open the ParetoAnywhere Object to set a Device URI",
+        "info": "",
+        "x": 240,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "cbf1e69a3ac79bbc",
+        "type": "comment",
+        "z": "1d5ae953cc9707ce",
+        "name": "create a friendly topic name, and assign the payload here",
+        "info": "",
+        "x": 1170,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5fdcd203f5d4aafb",
+        "type": "comment",
+        "z": "1d5ae953cc9707ce",
+        "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
+        "info": "",
+        "x": 1970,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "7b45b8330e4782c9",
+        "type": "comment",
+        "z": "1d5ae953cc9707ce",
+        "name": "Confirm the property of the right name exists...",
+        "info": "",
+        "x": 760,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "b5ab8d1d8db0a0aa",
+        "type": "comment",
+        "z": "1d5ae953cc9707ce",
+        "name": "Format: http://localhost:3001/devices/[DEVICE_ID]/[DEVICE_ID_TYPE]",
+        "info": "",
+        "x": 290,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "962e9576cfe27856",
+        "type": "comment",
+        "z": "1d5ae953cc9707ce",
+        "name": "Only send if it's changed...",
+        "info": "",
+        "x": 1510,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "852ba87a2d06874f",
+        "type": "comment",
+        "z": "1d5ae953cc9707ce",
+        "name": "open the UI and look under \"BLE Devices\" to see devices, their deviceId, and deviceIdType values",
+        "info": "",
+        "x": 800,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "0cda8120a5dd469b",
+        "type": "comment",
+        "z": "1d5ae953cc9707ce",
+        "name": "Create UI elements for each of the sensor outputs",
+        "info": "",
+        "x": 230,
+        "y": 680,
+        "wires": []
     },
     {
         "id": "31d3a88e3857e152",
@@ -3359,43 +3389,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 1120,
         "y": 260,
         "wires": [
             [
                 "a26d3d2571b0c417"
             ]
         ]
-    },
-    {
-        "id": "08a7ffa5fb2bb58f",
-        "type": "comment",
-        "z": "7909cc4cfbebc6f4",
-        "name": "assign a device ID here",
-        "info": "",
-        "x": 140,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "5535664da405760b",
-        "type": "comment",
-        "z": "7909cc4cfbebc6f4",
-        "name": "create a topic name, and assign the payload here",
-        "info": "",
-        "x": 940,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "9e25c89496b6934f",
-        "type": "comment",
-        "z": "7909cc4cfbebc6f4",
-        "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
-        "info": "",
-        "x": 1570,
-        "y": 220,
-        "wires": []
     },
     {
         "id": "9460864a184af397",
@@ -3408,7 +3408,7 @@
             "f3877161e3ba366e",
             "1c08fa477d99a99e"
         ],
-        "x": 1255,
+        "x": 1635,
         "y": 260,
         "wires": []
     },
@@ -3418,7 +3418,7 @@
         "z": "7909cc4cfbebc6f4",
         "name": "/e9beacon5c26/isMotionDetected",
         "info": "",
-        "x": 1420,
+        "x": 1800,
         "y": 260,
         "wires": []
     },
@@ -3433,22 +3433,12 @@
         "wires": []
     },
     {
-        "id": "38c198019866bd8a",
-        "type": "comment",
-        "z": "7909cc4cfbebc6f4",
-        "name": "Confirm the property of the right name exists...",
-        "info": "",
-        "x": 520,
-        "y": 220,
-        "wires": []
-    },
-    {
         "id": "298821c103b2b981",
         "type": "comment",
         "z": "7909cc4cfbebc6f4",
         "name": "Even if we trust the device....",
         "info": "",
-        "x": 460,
+        "x": 680,
         "y": 300,
         "wires": []
     },
@@ -3464,7 +3454,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 670,
         "y": 260,
         "wires": [
             [
@@ -3478,8 +3468,8 @@
         "z": "7909cc4cfbebc6f4",
         "name": "Minew E9 Waterproof Beacon https://www.minew.com/product/e9-waterproof-beacon/",
         "info": "",
-        "x": 340,
-        "y": 140,
+        "x": 320,
+        "y": 60,
         "wires": []
     },
     {
@@ -3494,7 +3484,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 1120,
         "y": 340,
         "wires": [
             [
@@ -3514,7 +3504,7 @@
             "fddd5d157b9b8608",
             "93a57bbd72b84360"
         ],
-        "x": 1255,
+        "x": 1635,
         "y": 340,
         "wires": []
     },
@@ -3524,7 +3514,7 @@
         "z": "7909cc4cfbebc6f4",
         "name": "/e9beacon5c26/batteryPercentage",
         "info": "",
-        "x": 1420,
+        "x": 1800,
         "y": 340,
         "wires": []
     },
@@ -3540,7 +3530,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 670,
         "y": 340,
         "wires": [
             [
@@ -3560,8 +3550,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 400,
+        "x": 1100,
+        "y": 420,
         "wires": [
             [
                 "eaca0f8490a65089"
@@ -3579,8 +3569,8 @@
             "68c2629504ca0b28",
             "270f40931efab3e3"
         ],
-        "x": 1255,
-        "y": 400,
+        "x": 1635,
+        "y": 420,
         "wires": []
     },
     {
@@ -3589,8 +3579,8 @@
         "z": "7909cc4cfbebc6f4",
         "name": "/e9beacon5c26/acceleration",
         "info": "",
-        "x": 1400,
-        "y": 400,
+        "x": 1780,
+        "y": 420,
         "wires": []
     },
     {
@@ -3605,8 +3595,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 400,
+        "x": 650,
+        "y": 420,
         "wires": [
             [
                 "b0a68ed732d1b304"
@@ -3625,7 +3615,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1140,
+        "x": 1440,
         "y": 260,
         "wires": [
             [
@@ -3645,7 +3635,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1140,
+        "x": 1440,
         "y": 340,
         "wires": [
             [
@@ -3665,8 +3655,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1140,
-        "y": 400,
+        "x": 1440,
+        "y": 420,
         "wires": [
             [
                 "d16e2f395802f112"
@@ -3776,16 +3766,6 @@
         "info": "",
         "x": 230,
         "y": 760,
-        "wires": []
-    },
-    {
-        "id": "0a0c503f21561805",
-        "type": "comment",
-        "z": "7909cc4cfbebc6f4",
-        "name": "Minew E9 Waterproof Beacon https://www.minew.com/product/e9-waterproof-beacon/",
-        "info": "",
-        "x": 360,
-        "y": 600,
         "wires": []
     },
     {
@@ -3965,5 +3945,85 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "80c4a38bc7701a90",
+        "type": "comment",
+        "z": "7909cc4cfbebc6f4",
+        "name": "Open the ParetoAnywhere Object to set a Device URI",
+        "info": "",
+        "x": 220,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "57e5e9958c0111c5",
+        "type": "comment",
+        "z": "7909cc4cfbebc6f4",
+        "name": "create a friendly topic name, and assign the payload here",
+        "info": "",
+        "x": 1150,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "7df329541561236a",
+        "type": "comment",
+        "z": "7909cc4cfbebc6f4",
+        "name": "send via named LinkOut to the Message Switchboard running in another flow on this computer ",
+        "info": "",
+        "x": 1950,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ed74aaceb2a6c336",
+        "type": "comment",
+        "z": "7909cc4cfbebc6f4",
+        "name": "Confirm the property of the right name exists...",
+        "info": "",
+        "x": 740,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "42bff9f73e7d273a",
+        "type": "comment",
+        "z": "7909cc4cfbebc6f4",
+        "name": "Format: http://localhost:3001/devices/[DEVICE_ID]/[DEVICE_ID_TYPE]",
+        "info": "",
+        "x": 270,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "37ec80bc88972819",
+        "type": "comment",
+        "z": "7909cc4cfbebc6f4",
+        "name": "Only send if it's changed...",
+        "info": "",
+        "x": 1490,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a0ecf2f1f8a2ff46",
+        "type": "comment",
+        "z": "7909cc4cfbebc6f4",
+        "name": "open the UI and look under \"BLE Devices\" to see devices, their deviceId, and deviceIdType values",
+        "info": "",
+        "x": 780,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ee5066fb60e505e6",
+        "type": "comment",
+        "z": "7909cc4cfbebc6f4",
+        "name": "Create UI elements for each of the sensor outputs",
+        "info": "",
+        "x": 230,
+        "y": 580,
+        "wires": []
     }
 ]
